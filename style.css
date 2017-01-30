@@ -13,6 +13,16 @@
 	top: -10px;
 
 }
+.page-title {
+	background-image: url(header.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 900px;
+	
+	background-position: center center;
+	position: relative;
+}
+
 
 .kontenerki {
 	
@@ -106,17 +116,5 @@ padding: 20px;
  color:#888;
 }
 
-<!-------- ikony ----->
-.icons a {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    margin: 10px;
-    vertical-align: middle;
-   
-}
-.icons a.twitter { background: url(twitter.png) left top no-repeat; }
-.icons a.facebook { background: url(facebook.png) left top no-repeat; }
-.icons a.youtube { background: url(youtube.png) left top no-repeat; }
-.icons a:hover { background-position: left -34px; }
+
 
