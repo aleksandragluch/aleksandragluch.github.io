@@ -6,7 +6,7 @@ html, body {
 body {
 	background-color: #F0F0F0;
 	color: 	#575757 ;
-	font-family: 'Muli', sans-serif;
+	font-family: 
 
 	
 }
@@ -14,5 +14,5 @@ body {
 #outside {
 	margin: 40px 0px;
 	text-align: center;
-	letter-spacing: 5px;
+	letter-spacing: 10px;
 }
