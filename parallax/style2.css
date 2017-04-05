@@ -1,0 +1,130 @@
+body {
+	height: 100%;
+	background-color: black;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.bcgr{
+	background-image: url("img/par4.png");
+	height: 100%;
+	position: relative;
+	opacity:0.7;
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.bcgr2 {
+		background-image: url("img/par5.png");
+	height: 100%;
+	position: relative;
+	opacity:0.7;
+	background-attachment: fixed;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.border {
+	
+	color: white;
+	padding: 20px;
+	font-size: 34px;
+	letter-spacing: 10px;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+.navigation{
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	
+}
+
+.logo {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.tekst {
+	color: #939393;
+	padding: 50px;
+	left: 8%;
+	right:8%;
+	
+	
+	
+}
+
+
+p {
+	text-align:justify;
+}
+
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.navigation {
+		left: 15%;
+	}
+	
+	.tekst {
+		font-size: 15px;
+		left: 0;
+		right:0;	
+	}
+
+
+}
+
